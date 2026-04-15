@@ -19,9 +19,9 @@ We propose FastGrasp, a learning-based framework that integrates grasp guidance,
 <div style="display: flex; align-items: center;">
     <img src="./assets/media/pipeline.jpg" alt="teaser" style="margin-right: 10px;">
 </div>
-<div style="text-align: justify;">
+<p align="justify">
 FastGrasp adopts a two-stage strategy to achieve fast dexterous grasping for mobile manipulators: in the first stage, a conditional variational autoencoder (CVAE) conditioned on object point clouds generates diverse grasp candidates, and the optimal grasp guidance is selected based on hand envelopment metrics (GWC and GDC); in the second stage, this grasp guidance, together with real-time tactile feedback, is used to train a whole-body control policy via reinforcement learning (PPO), coordinating the mobile base, robotic arm, and dexterous hand to achieve stable grasping under high-speed motion while adapting to objects of varying shapes.
-</div>
+</p>
 
 
 ## Installation
