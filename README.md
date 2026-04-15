@@ -5,9 +5,9 @@ Preprint of [FastGrasp](https://arxiv.org/abs/2604.12879).
     <img src="./assets/media/teaser.jpg" alt="teaser" style="margin-right: 10px;">
 </div>
 
-<div style="text-align: justify;">
+<p align="justify">
 We propose FastGrasp, a learning-based framework that integrates grasp guidance, whole-body control, and tactile feedback for mobile fast grasping. Our two-stage reinforcement learning strategy first generates diverse grasp candidates via conditional variational autoencoder conditioned on object point clouds, then executes coordinated movements of mobile base, arm, and hand guided by optimal grasp selection. Tactile sensing enables real-time grasp adjustments to handle impact effects and object variations.
-</div>
+</p>
 
 ## News
 
